@@ -1,8 +1,35 @@
 = Quick Start 
 :reproducible:
-1. Use npx to create a simple react app project from a template with package manager of npm instead of yarn (i.e., yarn is default)
- `npx create-react-app hello-react --use-npm`
-2. Go to the app project and then run a default development server to demo react app.
-`cd hello-react && npm start`
+
+Use npx to create a simple react app project from a template with package manager of npm instead of yarn (i.e., yarn is default).
+
+ npx create-react-app hello-react --use-npm
+ 
+Go to the app project and then run a default development server to demo react app.
+
+ cd hello-react && npm start
 
 The total size of default hello-react is about 300MB (i.e., check by `du -sh hello-react`)
+
+The source-only project structure of hello-react is below:
+
+ hello-react/
+ ├── README.md
+ ├── package-lock.json
+ ├── package.json
+ ├── public
+ │   ├── favicon.ico
+ │   ├── index.html
+ │   ├── logo192.png
+ │   ├── logo512.png
+ │   ├── manifest.json
+ │   └── robots.txt
+ └── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── *index.js*
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
