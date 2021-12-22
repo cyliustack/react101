@@ -1,0 +1,9 @@
+= Quick Start 
+:reproducible:
+
+Modify an existed simple react app by adding elements and nested elements.
+
+ vim src/index.js
+ npm install 
+ npm start
+

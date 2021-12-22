@@ -7,7 +7,9 @@ Use npx to create a simple react app project from a template with package manage
  
 Go to the app project and then run a default development server to demo react app.
 
- cd hello-react && npm start
+ cd hello-react 
+ npm install (i.e., required for source-only project)
+ npm start
 
 The total size of default hello-react is about 300MB (i.e., check by `du -sh hello-react`)
 
